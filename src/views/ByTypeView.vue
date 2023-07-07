@@ -26,7 +26,7 @@ watchEffect(() => {
     </nav>
     <div class="flex flex-wrap">
       <template v-for="entry in entriesRef" :key="entry.id">
-        <BlogCard class="w-[36rem] shrink-0 mb-16 ml-16" :entry="entry" />
+        <BlogCard :entry="entry" />
       </template>
     </div>
   </main>

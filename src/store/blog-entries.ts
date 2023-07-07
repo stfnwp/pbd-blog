@@ -17,10 +17,10 @@ export const entries: BlogEntry[] = [
     type: 'Lager',
     title: 'Först Drügendorf Lager',
     description: 'Ist das etwa Bierschinken in der Nase?',
-    content: `Im Glas präsentiert sich ein dunkel bernsteinfarbiges, dezent ins rötliche gehendes und leicht trübes Lagerbier mit geringer Spundung. 
-Das hat das dunkle Braun des Etiketts angekündigt, nichtsdestotrotz hätte ich ein helleres Lager erwartet. 
-Die Nase bemerkt deutliche Röstmalznoten, welche man durchaus als ins Rauchige gehend bewerten kann. 
-Im Mund zeigt sich eine karamellige Würze, welche von einer moderaten Herbe vollendet wird, die nur eine dezente Bittere hinterlässt. 
+    content: `Nach Öffnen der Flasche sorgte mein neugieriges "den Zinken hineinstecken" für ein spontantes "ist da Bierschinken drin?".<br />Im Glas präsentiert sich ein dunkel bernsteinfarbiges, dezent ins rötliche gehendes und leicht trübes Lagerbier mit geringer Spundung.<br/> 
+Das hat das dunkle Braun des Etiketts angekündigt, nichtsdestotrotz hätte ich ein helleres Lager erwartet.<br /><br />
+Die Nase bemerkt deutliche Röstmalznoten, welche man durchaus als ins Rauchige gehend bewerten kann.<br /> 
+Im Mund zeigt sich eine karamellige Würze, welche von einer moderaten Herbe vollendet wird, die nur eine dezente Bittere hinterlässt.<br /><br />
 Insgesamt ein gelungenes Lager, das sich relativ süffig trinken und genießen lässt. 
 `,
     image: 'foerst.webp'

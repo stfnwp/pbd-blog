@@ -4,7 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <nav class="font-[bebas] flex flex-row justify-evenly my-8 text-4xl mx-16">
+    <nav
+      class="font-[bebas] flex flex-col md:flex-row h-52 md:h-24 items-center justify-evenly md:my-8 text-2xl md:text-4xl mx-16"
+    >
       <RouterLink active-class="underline underline-offset-4 decoration-4" to="/"
         >Neueste</RouterLink
       >
@@ -13,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
         to="/types/lager"
         >Nach Typ</RouterLink
       >
-      <RouterLink active-class="underline underline-offset-4 decoration-4" to="/about"
+      <RouterLink active-class="underline underline-offset-4 decoration-4" to="/all"
         >Alle Biere</RouterLink
       >
       <RouterLink active-class="underline underline-offset-4 decoration-4" to="/about"

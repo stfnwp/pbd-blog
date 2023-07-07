@@ -10,6 +10,12 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/all',
+      name: 'all',
+      component: HomeView,
+      meta: { scope: 'all' }
+    },
+    {
       path: '/types/:type',
       name: 'types',
       component: () => import('../views/ByTypeView.vue')
