@@ -1,4 +1,4 @@
-export const allBeerTypes = ['Lager', 'Kellerbier'] as const
+export const allBeerTypes = ['Lager', 'Kellerbier', 'Märzen'] as const
 export type BeerType = (typeof allBeerTypes)[number]
 
 export type BlogEntry = {
@@ -33,5 +33,14 @@ Insgesamt ein gelungenes Lager, das sich relativ süffig trinken und genießen l
     description: 'Eins ist nicht genug!',
     content: `Die Nase wird von einem herrlich malzigen, leicht karamelligen und röstmalzigem Gerüch begrüßt.<br /> Im Glas zeigt sich eine bernsteinfarbene, relativ trübe uns somit undurchsichtige Flüssigkeit.<br /> Im Antrunk folgt dann zu Beginn eine kleine Malzexplosion, welche in einer äußerst zurückhaltenden Herbe endet.<br />War ich zu Beginn des Seidlas etwas enttäuscht, dass der Hopfen keine sonderliche Präsenz zeigt, konnte man sich im weiteren Trinkverlauf äußerst mit diesem Gebräu anfreunden.<br />Dieses Kellerbier lässt sich wunderbar süffig trinken, ich bemitleide jeden, der keine zweite Flasche davon zur Hand hat.<br />Egal, ob man Astronaut ist, oder nicht: Mit diesem Gebräu lässt sich wahrhaft eine Rakete zünden!`,
     image: 'beck.webp'
+  },
+  {
+    id: 'mager-maerzen',
+    date: '2022-07-26',
+    type: 'Märzen',
+    title: 'Mager Märzen',
+    description: 'Klare Empfehlung auch für Nicht-Märzen-Trinker!',
+    content: `Im Glas zeigt sich ein goldfarbenes Gebräu mit leichter Spundung, was rein farblich in manchen fränkischen Gefilden locker als Helles durchgehen könnte.<br /> Schon in der Nase breiten sich herrliche Aromen aus, welche in leichten Nuancen an reife Beeren und Waldhonig erinnern. Am Gaumen zeigt sich eine grandiose geschmackliche Balance, dieses Märzen könnte definitiv als gut gewürztes Helles durchgehen!<br /> Zudem gehört mit einem Alkoholanteil von 5,1% dieses Märzen zu den eher leichteren Vertreter seiner Art.<br /> Der perfekt abgestimmte Geschmack sorgt zusammen mit dieser Leichtigkeit für ein wahrhaft meisterliches Trinkerlebnis, was sich kein Bierfreund entgehen lassen sollte.`,
+    image: 'mager.webp'
   }
 ]
