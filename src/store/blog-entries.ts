@@ -13,7 +13,7 @@ export type BlogEntry = {
 export const entries: BlogEntry[] = [
   {
     id: 'foerst-lager',
-    date: '2022-07-05',
+    date: '2023-07-05',
     type: 'Lager',
     title: 'Först Drügendorf Lager',
     description: 'Ist das etwa Bierschinken in der Nase?',
@@ -27,7 +27,7 @@ Insgesamt ein gelungenes Lager, das sich relativ süffig trinken und genießen l
   },
   {
     id: 'beck-kellerbier',
-    date: '2022-07-07',
+    date: '2023-07-07',
     type: 'Kellerbier',
     title: 'Beck Bräu Kellerbier',
     description: 'Eins ist nicht genug!',
@@ -36,7 +36,7 @@ Insgesamt ein gelungenes Lager, das sich relativ süffig trinken und genießen l
   },
   {
     id: 'mager-maerzen',
-    date: '2022-07-26',
+    date: '2023-07-26',
     type: 'Märzen',
     title: 'Mager Märzen',
     description: 'Klare Empfehlung auch für Nicht-Märzen-Trinker!',
