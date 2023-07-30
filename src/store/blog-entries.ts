@@ -1,4 +1,4 @@
-export const allBeerTypes = ['Lager', 'Kellerbier', 'Märzen'] as const
+export const allBeerTypes = ['Lager', 'Kellerbier', 'Märzen', 'Rotbier', 'Dunkel'] as const
 export type BeerType = (typeof allBeerTypes)[number]
 
 export type BlogEntry = {
@@ -42,5 +42,23 @@ Insgesamt ein gelungenes Lager, das sich relativ süffig trinken und genießen l
     description: 'Klare Empfehlung auch für Nicht-Märzen-Trinker!',
     content: `Im Glas zeigt sich ein goldfarbenes Gebräu mit leichter Spundung, was rein farblich in manchen fränkischen Gefilden locker als Helles durchgehen könnte.<br /> Schon in der Nase breiten sich herrliche Aromen aus, welche in leichten Nuancen an reife Beeren und Waldhonig erinnern. Am Gaumen zeigt sich eine grandiose geschmackliche Balance, dieses Märzen könnte definitiv als gut gewürztes Helles durchgehen!<br /> Zudem gehört mit einem Alkoholanteil von 5,1% dieses Märzen zu den eher leichteren Vertreter seiner Art.<br /> Der perfekt abgestimmte Geschmack sorgt zusammen mit dieser Leichtigkeit für ein wahrhaft meisterliches Trinkerlebnis, was sich kein Bierfreund entgehen lassen sollte.`,
     image: 'mager.webp'
+  },
+  {
+    id: 'bayer-knoerzla',
+    date: '2023-07-28',
+    type: 'Rotbier',
+    title: 'Bayer Knörzla',
+    description: 'Ein Rotbier für alle Fälle!',
+    content: `Gleich nachdem man mit dem Riechkolben die Flasche nach deren geschmacklichen Inhalten auskundschaftete, konnte man die feinen getreidigen Noten erahnen, die dieses Bier verspricht. Im Glas offenbart sich ein unfiltriertes rotbräunliches Gebräu ohne Spundung.<br /> Schon der ersten Schluck macht Freude auf mehr, hier sind Malz und Hopfen derart gekonnt ausgewogen, dass eine äußerst süffige Angelegenheit zu erwarten ist. Dies wird im weiteren Trinkverlauf mehr als erfüllt:<br />Ein brotig-getreidiges Bier mit sensationeller Balance lässt das Biertrinkerherz höherschlagen.<br />Die fehlenden Hopfennoten machen sich hier kaum negativ bemerkbar, vielmehr kann man sich an den herrlich malzigen Aromen erfreuen und hoffen, dass genug Nachschub vorhanden ist.`,
+    image: 'bayer-knoerzla.webp'
+  },
+  {
+    id: 'dorn-dunkel',
+    date: '2023-07-30',
+    type: 'Dunkel',
+    title: 'Dorn Dunkel Export',
+    description: 'Dunkles mit bitterem Abgang - man lernt nie aus!',
+    content: `Die Nase wird nach dem obligatorischen Flaschen-Riechtest von kräftigen Malznoten begrüßt, was bei einem Dunklen immer zu erwarten ist. <br /> Im Glas zeigt sich ein kastanienbraunes, dunkles Bier mit oppulenter Schaumrone, welche leider nicht lange anhält. Beim ersten Schluck offenbart sich zum initial gerochenen, dominanten Malzaroma allerdings eine ungeahnte Wendung:<br /> Nachdem die feinen Malzaromen den Gaumen hinabgeglitten sind, macht sich eine markante Bittere breit, welche kurz anhält und in einem wässrigen Abgang mündet.<br /> Sowas hab ich bei einem Dunklen in dem Ausmaß noch nicht im Glas, man lernt nie aus.<br /> Wer malzbetonte dunkle Biere verehrt, wird mit diesem Gebräu nur bedingt seine Freude haben, die Hopfenbittere in der zweiten Trinkhälfte ist für diesen Biertyp mehr als ungewohnt.`,
+    image: 'dorn-dunkel.webp'
   }
 ]
