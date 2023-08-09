@@ -32,7 +32,7 @@ export const entries: BlogEntry[] = [
     date: '06.08.2023',
     type: 'Kellerbier',
     title: 'Neder Kellerbier',
-    description: 'Scheckt, wie es das Etikett verspricht!',
+    description: 'Schmeckt, wie es das Etikett verspricht!',
     content: `Die Brauerei Neder aus Forchheim, weithin für die Schwarze Anna bekannt, stellt sich heute mit ihrem Kellerbier vor.<br />Im Glas zeigt sich eine typische Kellerbier-Flüssigkeit: Unfiltriert, goldfarben und mit vernachlässigbarer Spundung.<br />In der Nase wird allerdings schon das erste Ausrufezeichen gesetzt:<br /> Hier ist deutlich kräftigeres Malzaroma am Start, als bei manch anderem Konkurrenten.<br />Das Bier macht einen klassichen, kräftigen Eindruck und auch der Hopfen wurde nicht vergessen.<br />Nachdem die Malzigkeit vorbeigeglitten ist, folgt ein erkennbar bitterer Abgang.<br />Dieses Bier ist eher an den Genießer adressiert, der kräftige Geschmack bei Malz und Hopfen mindert eine zügige Schüttability.`,
     image: 'neder-keller.webp'
   },
@@ -51,7 +51,7 @@ export const entries: BlogEntry[] = [
     type: 'Dunkel',
     title: 'Dorn Dunkel Export',
     description: 'Dunkles mit bitterem Abgang - man lernt nie aus!',
-    content: `Die Nase wird nach dem obligatorischen Flaschen-Riechtest von kräftigen Malznoten begrüßt, was bei einem Dunklen immer zu erwarten ist. <br /> Im Glas zeigt sich ein kastanienbraunes, dunkles Bier mit oppulenter Schaumrone, welche leider nicht lange anhält. Beim ersten Schluck offenbart sich zum initial gerochenen, dominanten Malzaroma allerdings eine ungeahnte Wendung:<br /> Nachdem die feinen Malzaromen den Gaumen hinabgeglitten sind, macht sich eine markante Bittere breit, welche kurz anhält und in einem wässrigen Abgang mündet.<br /> Sowas hab ich bei einem Dunklen in dem Ausmaß noch nicht im Glas, man lernt nie aus.<br /> Wer malzbetonte dunkle Biere verehrt, wird mit diesem Gebräu nur bedingt seine Freude haben, die Hopfenbittere in der zweiten Trinkhälfte ist für diesen Biertyp mehr als ungewohnt.`,
+    content: `Die Nase wird nach dem obligatorischen Flaschen-Riechtest von kräftigen Malznoten begrüßt, was bei einem Dunklen immer zu erwarten ist. <br /> Im Glas zeigt sich ein kastanienbraunes, dunkles Bier mit oppulenter Schaumkrone, welche leider nicht lange anhält. Beim ersten Schluck offenbart sich zum initial gerochenen, dominanten Malzaroma allerdings eine ungeahnte Wendung:<br /> Nachdem die feinen Malzaromen den Gaumen hinabgeglitten sind, macht sich eine markante Bittere breit, welche kurz anhält und in einem wässrigen Abgang mündet.<br /> Sowas hab ich bei einem Dunklen in dem Ausmaß noch nicht im Glas, man lernt nie aus.<br /> Wer malzbetonte dunkle Biere verehrt, wird mit diesem Gebräu nur bedingt seine Freude haben, die Hopfenbittere in der zweiten Trinkhälfte ist für diesen Biertyp mehr als ungewohnt.`,
     image: 'dorn-dunkel.webp'
   },
   {
@@ -69,7 +69,7 @@ export const entries: BlogEntry[] = [
     type: 'Märzen',
     title: 'Mager Märzen',
     description: 'Klare Empfehlung auch für Nicht-Märzen-Trinker!',
-    content: `Im Glas zeigt sich ein goldfarbenes Gebräu mit leichter Spundung, was rein farblich in manchen fränkischen Gefilden locker als Helles durchgehen könnte.<br /> Schon in der Nase breiten sich herrliche Aromen aus, welche in leichten Nuancen an reife Beeren und Waldhonig erinnern. Am Gaumen zeigt sich eine grandiose geschmackliche Balance, dieses Märzen könnte definitiv als gut gewürztes Helles durchgehen!<br /> Zudem gehört mit einem Alkoholanteil von 5,1% dieses Märzen zu den eher leichteren Vertreter seiner Art.<br /> Der perfekt abgestimmte Geschmack sorgt zusammen mit dieser Leichtigkeit für ein wahrhaft meisterliches Trinkerlebnis, was sich kein Bierfreund entgehen lassen sollte.`,
+    content: `Im Glas zeigt sich ein goldfarbenes Gebräu mit leichter Spundung, was rein farblich in manchen fränkischen Gefilden locker als Helles durchgehen könnte.<br /> Schon in der Nase breiten sich herrliche Aromen aus, welche in leichten Nuancen an reife Beeren und Waldhonig erinnern. Am Gaumen zeigt sich eine grandiose geschmackliche Balance, dieses Märzen könnte definitiv als gut gewürztes Helles durchgehen!<br /> Zudem gehört mit einem Alkoholanteil von 5,1% dieses Märzen zu den eher leichteren Vertretern seiner Art.<br /> Der perfekt abgestimmte Geschmack sorgt zusammen mit dieser Leichtigkeit für ein wahrhaft meisterliches Trinkerlebnis, was sich kein Bierfreund entgehen lassen sollte.`,
     image: 'mager.webp'
   },
   {
@@ -87,7 +87,7 @@ export const entries: BlogEntry[] = [
     type: 'Lager',
     title: 'Först Drügendorf Lager',
     description: 'Ist das etwa Bierschinken in der Nase?',
-    content: `Nach Öffnen der Flasche sorgte mein neugieriges "den Zinken hineinstecken" für ein spontantes "ist da Bierschinken drin?".<br />Im Glas präsentiert sich ein dunkel bernsteinfarbiges, dezent ins rötliche gehendes und leicht trübes Lagerbier mit geringer Spundung.<br/> 
+    content: `Nach Öffnen der Flasche sorgte mein neugieriges "den Zinken hineinstecken" für ein spontantes "Ist da Bierschinken drin?".<br />Im Glas präsentiert sich ein dunkel bernsteinfarbiges, dezent ins rötliche gehendes und leicht trübes Lagerbier mit geringer Spundung.<br/> 
 Das hat das dunkle Braun des Etiketts angekündigt, nichtsdestotrotz hätte ich ein helleres Lager erwartet.<br /><br />
 Die Nase bemerkt deutliche Röstmalznoten, welche man durchaus als ins Rauchige gehend bewerten kann.<br /> 
 Im Mund zeigt sich eine karamellige Würze, welche von einer moderaten Herbe vollendet wird, die nur eine dezente Bittere hinterlässt.<br /><br />
